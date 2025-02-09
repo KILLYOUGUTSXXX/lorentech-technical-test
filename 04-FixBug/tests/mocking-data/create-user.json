@@ -1,0 +1,20 @@
+[
+  {
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "age": 30,
+    "bod": "1993-05-15"
+  },
+  {
+    "name": "Jane Smith",
+    "email": "jane.smith@example.net",
+    "age": 25,
+    "bod": "1998-11-22"
+  },
+  {
+    "name": 2222,
+    "email": "ashley.davis@anon.uk",
+    "age": "29",
+    "bod": "1994-04-03"
+  }
+]

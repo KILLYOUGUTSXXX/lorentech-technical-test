@@ -1,0 +1,13 @@
+const path = require('path');
+const configs = require('dotenv').config({ path: `.env.${process.env.NEST_ENV}` }).parsed
+global.process.env = {
+  ...global.process.env,
+  ...configs
+}
+
+module.exports = {
+  config: path.resolve('config', 'db-migration.js'),
+  // 'models-path': path.resolve('src/common/databases/pg', 'schema'),
+  'seeders-path': path.resolve('src/common/databases/pg', 'seeders'),
+  'migrations-path': path.resolve('src/common/databases/pg', 'migrations'),
+};

@@ -1,0 +1,602 @@
+[
+  {
+    "province_code": "JABAR",
+    "periode": "2024-01-01",
+    "value": 500000
+  },
+  {
+    "province_code": "JABAR",
+    "periode": "2024-02-01",
+    "value": 5020000
+  },
+  {
+    "province_code": "JABAR",
+    "periode": "2024-03-01",
+    "value": 50040000
+  },
+  {
+    "province_code": "JABAR",
+    "periode": "2024-04-01",
+    "value": 52060000
+  },
+  {
+    "province_code": "JABAR",
+    "periode": "2024-05-01",
+    "value": 55080000
+  },
+  {
+    "province_code": "JABAR",
+    "periode": "2024-06-01",
+    "value": 51100000
+  },
+  {
+    "province_code": "JABAR",
+    "periode": "2024-07-01",
+    "value": 56120000
+  },
+  {
+    "province_code": "JABAR",
+    "periode": "2024-08-01",
+    "value": 50140000
+  },
+  {
+    "province_code": "JABAR",
+    "periode": "2024-09-01",
+    "value": 50160000
+  },
+  {
+    "province_code": "JABAR",
+    "periode": "2024-10-01",
+    "value": 50180000
+  },
+  {
+    "province_code": "JABAR",
+    "periode": "2024-11-01",
+    "value": 50200000
+  },
+  {
+    "province_code": "JABAR",
+    "periode": "2024-12-01",
+    "value": 50220000
+  },
+  {
+    "province_code": "JATENG",
+    "periode": "2024-01-01",
+    "value": 35000000
+  },
+  {
+    "province_code": "JATENG",
+    "periode": "2024-02-01",
+    "value": 35030000
+  },
+  {
+    "province_code": "JATENG",
+    "periode": "2024-03-01",
+    "value": 35060000
+  },
+  {
+    "province_code": "JATENG",
+    "periode": "2024-04-01",
+    "value": 35090000
+  },
+  {
+    "province_code": "JATENG",
+    "periode": "2024-05-01",
+    "value": 35120000
+  },
+  {
+    "province_code": "JATENG",
+    "periode": "2024-06-01",
+    "value": 35150000
+  },
+  {
+    "province_code": "JATENG",
+    "periode": "2024-07-01",
+    "value": 35180000
+  },
+  {
+    "province_code": "JATENG",
+    "periode": "2024-08-01",
+    "value": 35210000
+  },
+  {
+    "province_code": "JATENG",
+    "periode": "2024-09-01",
+    "value": 35240000
+  },
+  {
+    "province_code": "JATENG",
+    "periode": "2024-10-01",
+    "value": 35270000
+  },
+  {
+    "province_code": "JATENG",
+    "periode": "2024-11-01",
+    "value": 35300000
+  },
+  {
+    "province_code": "JATENG",
+    "periode": "2024-12-01",
+    "value": 35330000
+  },
+  {
+    "province_code": "SUMUT",
+    "periode": "2024-01-01",
+    "value": 14500000
+  },
+  {
+    "province_code": "SUMUT",
+    "periode": "2024-02-01",
+    "value": 14530000
+  },
+  {
+    "province_code": "SUMUT",
+    "periode": "2024-03-01",
+    "value": 14560000
+  },
+  {
+    "province_code": "SUMUT",
+    "periode": "2024-04-01",
+    "value": 14590000
+  },
+  {
+    "province_code": "SUMUT",
+    "periode": "2024-05-01",
+    "value": 14620000
+  },
+  {
+    "province_code": "SUMUT",
+    "periode": "2024-06-01",
+    "value": 14650000
+  },
+  {
+    "province_code": "SUMUT",
+    "periode": "2024-07-01",
+    "value": 14680000
+  },
+  {
+    "province_code": "SUMUT",
+    "periode": "2024-08-01",
+    "value": 14710000
+  },
+  {
+    "province_code": "SUMUT",
+    "periode": "2024-09-01",
+    "value": 14740000
+  },
+  {
+    "province_code": "SUMUT",
+    "periode": "2024-10-01",
+    "value": 14770000
+  },
+  {
+    "province_code": "SUMUT",
+    "periode": "2024-11-01",
+    "value": 14800000
+  },
+  {
+    "province_code": "SUMUT",
+    "periode": "2024-12-01",
+    "value": 14830000
+  },
+  {
+    "province_code": "BALI",
+    "periode": "2024-01-01",
+    "value": 4500000
+  },
+  {
+    "province_code": "BALI",
+    "periode": "2024-02-01",
+    "value": 4505000
+  },
+  {
+    "province_code": "BALI",
+    "periode": "2024-03-01",
+    "value": 4510000
+  },
+  {
+    "province_code": "BALI",
+    "periode": "2024-04-01",
+    "value": 4515000
+  },
+  {
+    "province_code": "BALI",
+    "periode": "2024-05-01",
+    "value": 4520000
+  },
+  {
+    "province_code": "BALI",
+    "periode": "2024-06-01",
+    "value": 4525000
+  },
+  {
+    "province_code": "BALI",
+    "periode": "2024-07-01",
+    "value": 4530000
+  },
+  {
+    "province_code": "BALI",
+    "periode": "2024-08-01",
+    "value": 4535000
+  },
+  {
+    "province_code": "BALI",
+    "periode": "2024-09-01",
+    "value": 4540000
+  },
+  {
+    "province_code": "BALI",
+    "periode": "2024-10-01",
+    "value": 4545000
+  },
+  {
+    "province_code": "BALI",
+    "periode": "2024-11-01",
+    "value": 4550000
+  },
+  {
+    "province_code": "BALI",
+    "periode": "2024-12-01",
+    "value": 4555000
+  },
+  {
+    "province_code": "SUSEL",
+    "periode": "2024-01-01",
+    "value": 8500000
+  },
+  {
+    "province_code": "SUSEL",
+    "periode": "2024-02-01",
+    "value": 8505000
+  },
+  {
+    "province_code": "SUSEL",
+    "periode": "2024-03-01",
+    "value": 8510000
+  },
+  {
+    "province_code": "SUSEL",
+    "periode": "2024-04-01",
+    "value": 8515000
+  },
+  {
+    "province_code": "SUSEL",
+    "periode": "2024-05-01",
+    "value": 8520000
+  },
+  {
+    "province_code": "SUSEL",
+    "periode": "2024-06-01",
+    "value": 8525000
+  },
+  {
+    "province_code": "SUSEL",
+    "periode": "2024-07-01",
+    "value": 8530000
+  },
+  {
+    "province_code": "SUSEL",
+    "periode": "2024-08-01",
+    "value": 8535000
+  },
+  {
+    "province_code": "SUSEL",
+    "periode": "2024-09-01",
+    "value": 8540000
+  },
+  {
+    "province_code": "SUSEL",
+    "periode": "2024-10-01",
+    "value": 8545000
+  },
+  {
+    "province_code": "SUSEL",
+    "periode": "2024-11-01",
+    "value": 8550000
+  },
+  {
+    "province_code": "SUSEL",
+    "periode": "2024-12-01",
+    "value": 8555000
+  },
+  {
+    "province_code": "KALTIM",
+    "periode": "2024-01-01",
+    "value": 3500000
+  },
+  {
+    "province_code": "KALTIM",
+    "periode": "2024-02-01",
+    "value": 3503000
+  },
+  {
+    "province_code": "KALTIM",
+    "periode": "2024-03-01",
+    "value": 3506000
+  },
+  {
+    "province_code": "KALTIM",
+    "periode": "2024-04-01",
+    "value": 3509000
+  },
+  {
+    "province_code": "KALTIM",
+    "periode": "2024-05-01",
+    "value": 3512000
+  },
+  {
+    "province_code": "KALTIM",
+    "periode": "2024-06-01",
+    "value": 3515000
+  },
+  {
+    "province_code": "KALTIM",
+    "periode": "2024-07-01",
+    "value": 3518000
+  },
+  {
+    "province_code": "KALTIM",
+    "periode": "2024-08-01",
+    "value": 3521000
+  },
+  {
+    "province_code": "KALTIM",
+    "periode": "2024-09-01",
+    "value": 3524000
+  },
+  {
+    "province_code": "KALTIM",
+    "periode": "2024-10-01",
+    "value": 3527000
+  },
+  {
+    "province_code": "KALTIM",
+    "periode": "2024-11-01",
+    "value": 3530000
+  },
+  {
+    "province_code": "KALTIM",
+    "periode": "2024-12-01",
+    "value": 3533000
+  },
+  {
+    "province_code": "DKI",
+    "periode": "2024-01-01",
+    "value": 10500000
+  },
+  {
+    "province_code": "DKI",
+    "periode": "2024-02-01",
+    "value": 10530000
+  },
+  {
+    "province_code": "DKI",
+    "periode": "2024-03-01",
+    "value": 10560000
+  },
+  {
+    "province_code": "DKI",
+    "periode": "2024-04-01",
+    "value": 10590000
+  },
+  {
+    "province_code": "DKI",
+    "periode": "2024-05-01",
+    "value": 10620000
+  },
+  {
+    "province_code": "DKI",
+    "periode": "2024-06-01",
+    "value": 10650000
+  },
+  {
+    "province_code": "DKI",
+    "periode": "2024-07-01",
+    "value": 10680000
+  },
+  {
+    "province_code": "DKI",
+    "periode": "2024-08-01",
+    "value": 10710000
+  },
+  {
+    "province_code": "DKI",
+    "periode": "2024-09-01",
+    "value": 10740000
+  },
+  {
+    "province_code": "DKI",
+    "periode": "2024-10-01",
+    "value": 10770000
+  },
+  {
+    "province_code": "DKI",
+    "periode": "2024-11-01",
+    "value": 10800000
+  },
+  {
+    "province_code": "DKI",
+    "periode": "2024-12-01",
+    "value": 10830000
+  },
+  {
+    "province_code": "NTB",
+    "periode": "2024-01-01",
+    "value": 5500000
+  },
+  {
+    "province_code": "NTB",
+    "periode": "2024-02-01",
+    "value": 5505000
+  },
+  {
+    "province_code": "NTB",
+    "periode": "2024-03-01",
+    "value": 5510000
+  },
+  {
+    "province_code": "NTB",
+    "periode": "2024-04-01",
+    "value": 5515000
+  },
+  {
+    "province_code": "NTB",
+    "periode": "2024-05-01",
+    "value": 5520000
+  },
+  {
+    "province_code": "NTB",
+    "periode": "2024-06-01",
+    "value": 5525000
+  },
+  {
+    "province_code": "NTB",
+    "periode": "2024-07-01",
+    "value": 5530000
+  },
+  {
+    "province_code": "NTB",
+    "periode": "2024-08-01",
+    "value": 5535000
+  },
+  {
+    "province_code": "NTB",
+    "periode": "2024-09-01",
+    "value": 5540000
+  },
+  {
+    "province_code": "NTB",
+    "periode": "2024-10-01",
+    "value": 5545000
+  },
+  {
+    "province_code": "NTB",
+    "periode": "2024-11-01",
+    "value": 5550000
+  },
+  {
+    "province_code": "NTB",
+    "periode": "2024-12-01",
+    "value": 5555000
+  },
+  {
+    "province_code": "PAP",
+    "periode": "2024-01-01",
+    "value": 3500000
+  },
+  {
+    "province_code": "PAP",
+    "periode": "2024-02-01",
+    "value": 3503000
+  },
+  {
+    "province_code": "PAP",
+    "periode": "2024-03-01",
+    "value": 3506000
+  },
+  {
+    "province_code": "PAP",
+    "periode": "2024-04-01",
+    "value": 3509000
+  },
+  {
+    "province_code": "PAP",
+    "periode": "2024-05-01",
+    "value": 3512000
+  },
+  {
+    "province_code": "PAP",
+    "periode": "2024-06-01",
+    "value": 3515000
+  },
+  {
+    "province_code": "PAP",
+    "periode": "2024-07-01",
+    "value": 3518000
+  },
+  {
+    "province_code": "PAP",
+    "periode": "2024-08-01",
+    "value": 3521000
+  },
+  {
+    "province_code": "PAP",
+    "periode": "2024-09-01",
+    "value": 3524000
+  },
+  {
+    "province_code": "PAP",
+    "periode": "2024-10-01",
+    "value": 3527000
+  },
+  {
+    "province_code": "PAP",
+    "periode": "2024-11-01",
+    "value": 3530000
+  },
+  {
+    "province_code": "PAP",
+    "periode": "2024-12-01",
+    "value": 3533000
+  },
+  {
+    "province_code": "MLK",
+    "periode": "2024-01-01",
+    "value": 2000000
+  },
+  {
+    "province_code": "MLK",
+    "periode": "2024-02-01",
+    "value": 2002000
+  },
+  {
+    "province_code": "MLK",
+    "periode": "2024-03-01",
+    "value": 2004000
+  },
+  {
+    "province_code": "MLK",
+    "periode": "2024-04-01",
+    "value": 2006000
+  },
+  {
+    "province_code": "MLK",
+    "periode": "2024-05-01",
+    "value": 2008000
+  },
+  {
+    "province_code": "MLK",
+    "periode": "2024-06-01",
+    "value": 2010000
+  },
+  {
+    "province_code": "MLK",
+    "periode": "2024-07-01",
+    "value": 2012000
+  },
+  {
+    "province_code": "MLK",
+    "periode": "2024-08-01",
+    "value": 2014000
+  },
+  {
+    "province_code": "MLK",
+    "periode": "2024-09-01",
+    "value": 2016000
+  },
+  {
+    "province_code": "MLK",
+    "periode": "2024-10-01",
+    "value": 2018000
+  },
+  {
+    "province_code": "MLK",
+    "periode": "2024-11-01",
+    "value": 2020000
+  },
+  {
+    "province_code": "MLK",
+    "periode": "2024-12-01",
+    "value": 2022000
+  }
+]

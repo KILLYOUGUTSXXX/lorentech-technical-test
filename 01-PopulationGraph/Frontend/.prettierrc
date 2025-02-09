@@ -1,0 +1,25 @@
+{
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": ["**/*.tsx"],
+      "options": {
+        "singleQuote": true,
+        "parser": "typescript"
+      }
+    },
+    {
+      "files": ["*.json", "*.jsonc", "*.json5"],
+      "options": {
+        "parser": "json"
+      }
+    }
+  ],
+  "semi": false,
+  "trailingComma": "none",
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "endOfLine": "auto",
+  "requirePragma": false,
+  "tabWidth": 2
+}

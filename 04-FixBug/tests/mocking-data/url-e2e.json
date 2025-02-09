@@ -1,0 +1,6 @@
+{
+  "user": {
+    "main": "/api/users",
+    "params": "/api/users/:id"
+  }
+}

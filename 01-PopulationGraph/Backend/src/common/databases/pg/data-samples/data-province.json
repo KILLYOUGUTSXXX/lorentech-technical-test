@@ -1,0 +1,42 @@
+[
+  {
+    "province_code": "JABAR",
+    "province_name": "Jawa Barat"
+  },
+  {
+    "province_code": "JATENG",
+    "province_name": "Jawa Tengah"
+  },
+  {
+    "province_code": "SUMUT",
+    "province_name": "Sumatera Utara"
+  },
+  {
+    "province_code": "BALI",
+    "province_name": "Bali"
+  },
+  {
+    "province_code": "SUSEL",
+    "province_name": "Sulawesi Selatan"
+  },
+  {
+    "province_code": "KALTIM",
+    "province_name": "Kalimantan Timur"
+  },
+  {
+    "province_code": "DKI",
+    "province_name": "DKI Jakarta"
+  },
+  {
+    "province_code": "NTB",
+    "province_name": "Nusa Tenggara Barat"
+  },
+  {
+    "province_code": "PAP",
+    "province_name": "Papua"
+  },
+  {
+    "province_code": "MLK",
+    "province_name": "Maluku"
+  }
+]

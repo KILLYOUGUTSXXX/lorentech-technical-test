@@ -1,0 +1,75 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@lynx/store/core": ["./src/models/main.provider.tsx"],
+      "@afx/components/*": [
+        "./src/components/*"
+      ],
+      "@afx/controllers/*": [
+        "./src/controllers/*"
+      ],
+      "@afx/interfaces/*": [
+        "./src/interfaces/*"
+      ],
+      "@afx/views/*": [
+        "./src/views/*"
+      ],
+      "@afx/utils/*": [
+        "./src/utilities/*"
+      ],
+      "@afx/services/*": [
+        "./src/services/*"
+      ],
+      "@lynx/models/*": [
+        "./src/models/configs/*"
+      ],
+      "@lynx/model-reg": [
+        "./src/models/registry.model.tsx"
+      ],
+      "@afx/assets/*": [
+        "./assets/*"
+      ],
+      "@lynx/mock-data/*": [
+        "./src/assets/mock-data/*"
+      ],
+      "@lynx/const/*": [
+        "./src/global-const/*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "dist/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "moduleResolution": "node",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "incremental": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@routers/*": ["src/routers/*"],
+      "@fx-routers": ["src/fx-routers"],
+      "@utilities/*": ["./src/utilities/*"],
+      "@main/*": ["src/main/*"],
+      "@app-module": ["src/app.module.ts"],
+      "@common-dtos/*": ["src/common/dtos/*"],
+      "@common-schemas/*": ["src/common/databases/pg/schemas/*"],
+      "@common-ifaces/*": ["src/common/interfaces/*"],
+      "@native-query/*": ["src/common/querying/*"],
+      "@test-stubs/*": ["src/tests/stubs/*"],
+      "@middlewares": ["src/middlewares"],
+      "@globals/*": ["src/globals/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/***/*.d.ts"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,32 @@
+Terdapat 3 Branch, yakni :
+   - Development 	: terdapat penambahan fitur A
+   - QA 		: sedang testing fitur B
+   - Production 	: ditemukan issue yang harus diperbaiki saat itu juga
+
+Apa yang harus dilakukan supaya issue dapat diperbaiki serta branch QA & Development tidak
+terjadi conflict dan tetap up-to-date terhadap perbaikan issue?
+
+maka penyelesaian, sebagai berikut :
+
+1. Lakukan checkout terhadap branch Production (Dalam kondisi tidak ada perubahan pada staging)
+   # git checkout Production
+
+2. Create branch baru dari branch production
+   # git checkout -B FIX-PROD-09022025-001
+
+3. Solving bug pada branch FIX-PROD-09022025-001
+
+4. Push branch FIX-PROD-09022025-001 to remote reposirory
+   # git add . && git commit -m "[Fix]: bug feature ..." && git push origin FIX-PROD-09022025-001
+
+5. Merge branch FIX-PROD-09022025-001 to Development
+   # git checkout development && git merge FIX-PROD-09022025-001 && git push origin Development
+
+6. Merge branch Development to UAT
+   # git checkout QA && git merge Development && git push origin UAT
+
+7. Merge branch UAT to Production
+   # git checkout Production && git merge QA && git push origin Production
+
+
+

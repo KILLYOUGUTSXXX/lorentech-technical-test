@@ -1,0 +1,213 @@
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.hideScroll,
+.bg-page {
+  &::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+  }
+}
+
+.ant-modal-wrap {
+  overflow: hidden !important;
+}
+
+body {
+  // display: block;
+  overflow: hidden !important;
+  width: 100vw;
+  height: 100dvh;
+  /* color: rgb(var(--foreground-rgb)); */
+}
+
+.root-content-body {
+  background: linear-gradient(
+      110.15deg,
+      #ff00b8 26.8%,
+      #e61cbd 60.3%,
+      #dc27c0 72.21%,
+      #a169cd 106.84%
+    ),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+}
+
+a.nonDecoration {
+  text-decoration: none !important;
+  outline: none !important;
+  // color: !important;
+}
+
+.bg-page {
+  height: 100%;
+  overflow: hidden;
+  width: 100vw;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(172, 82, 55);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(172, 82, 55);
+}
+
+.ant-btn-primary,
+.ant-btn-primary:hover {
+  background-color: #ac5237 !important;
+}
+
+.ant-btn-primary {
+  background-color: #ac5237 !important;
+}
+.ant-switch {
+  background-color: rgb(145, 141, 158);
+}
+
+.ant-switch-checked {
+  background-color: #ac5237 !important;
+}
+
+.ant-btn-primary .ant-btn-sm {
+  background-color: #ac5237 !important;
+}
+
+:where(.css-dev-only-do-not-override-6mg2wg).ant-card .ant-card-body {
+  padding: 10px;
+  box-shadow: 1.33px 2px 3.525px rgba(0, 0, 3, 0.13);
+}
+
+:where(.css-dev-only-do-not-override-6mg2wg).ant-table-wrapper
+  .ant-table.ant-table-small
+  .ant-table-title,
+:where(.css-dev-only-do-not-override-6mg2wg).ant-table-wrapper
+  .ant-table.ant-table-small
+  .ant-table-footer,
+:where(.css-dev-only-do-not-override-6mg2wg).ant-table-wrapper
+  .ant-table.ant-table-small
+  .ant-table-thead
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-6mg2wg).ant-table-wrapper
+  .ant-table.ant-table-small
+  .ant-table-tbody
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-6mg2wg).ant-table-wrapper
+  .ant-table.ant-table-small
+  .ant-table-tbody
+  > tr
+  > td,
+:where(.css-dev-only-do-not-override-6mg2wg).ant-table-wrapper
+  .ant-table.ant-table-small
+  tfoot
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-6mg2wg).ant-table-wrapper
+  .ant-table.ant-table-small
+  tfoot
+  > tr
+  > td {
+  color: rgb(2, 2, 14);
+  padding: 4px 6px;
+  font-size: 12px;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.tag-categories {
+  color: #545454 !important;
+  border: 0.5px solid #e4e4e4;
+  background-color: white;
+
+  white-space: nowrap;
+
+  padding: 4px 8px;
+  font-size: 11px;
+  font-weight: 500;
+  border-radius: 100px;
+  box-shadow: 0px 4px 15px 0px #00000014;
+
+  &.s-small {
+    font-size: 10px;
+  }
+
+  &.active {
+    color: #ac5237 !important;
+    background-color: rgba(237, 71, 191, 0.1);
+    border: 0.5px solid #ac5237;
+  }
+}
+
+.ant-divider {
+  &.ant-divider-horizontal {
+    margin: 6px 0px !important;
+  }
+  &.ant-divider-vertical {
+    margin: 0px 6px !important;
+  }
+}
+
+.reverse-radio-button {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+
+  &.ant-radio-wrapper > span:nth-child(2) {
+    width: 100%;
+    padding-inline-start: 0px;
+  }
+}
+
+.ant-switch {
+  background-color: #efefef !important;
+  box-shadow: 0px 6px 8px 3px #0000001a inset;
+}
+
+.ant-switch-checked {
+  background: linear-gradient(
+      110.15deg,
+      #e4a486 0.8%,
+      rgb(172, 82, 55) 60.3%,
+      rgb(172, 82, 55) 72.21%,
+      // #b2e7d6 106.84%
+    ),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)) !important;
+}
+
+// * {
+//   color: rgb(39, 39, 39);
+// }
