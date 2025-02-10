@@ -1,15 +1,15 @@
-MAIN_ENV='main';
+
 
 # Drop database if exists
-npm run drop:db;
+AIDIL_ENV='main' npm run drop:db;
 
 # Create the database
-npm run create:db;
+AIDIL_ENV='main' npm run create:db;
 
 # Migrate schema
-npm run migrate:up;
+AIDIL_ENV='main' npm run migrate:up;
 
 # Seedng the datas Province & Populations
-npm run seed;
+AIDIL_ENV='main' npm run seed;
 
-npm run start;
+AIDIL_ENV='main' npm run start;
