@@ -1,40 +1,55 @@
 
-# Technical Test Eigen - Backend
-### Aidil Febrian
+# Backend Installation
 
+on this configuration, there is upon on the 2 environment (main & dev), which "main" is meant by the production stage, whereas "dev" is the development stage :
 
-#### Run Migration :
-- Linux
-    ```bash
-    NEST_ENV=[dev|test] npm run migrate:refresh  
-    ```
-- Windows
-    ```bash
-    SET NEST_ENV=[dev|test&&npm run migrate:refresh  
-    ```
-
-#### Develop Mode
-- Linux
-    ```bash
-    npm run start:dev
-    ```
-- Windows
-    ```bash
-    npm run start:win-dev
-    ```
-    
-#### Production Mode
+**Configuration Template :**
 ```bash
-docker compose up --build -d
+PORT=<SERVICE_PORT>
+
+AFX_PG_URL=<POSTRES_URL>
+AFX_PG_PORT=<POSTRES_PORT>
+AFX_PG_USER=<POSTRES_USER>
+AFX_PG_PSW=<POSTRES_DB_PASSWORD>
+AFX_PG_DBNAME=<POSTRES_DB_NAME>
 ```
 
-#### Open Api Documentaion
+### With Docker
+
+####  1. Run docker compose & wait unti the installation finish
+
 ```bash
-http://localhost:4010/api-docs
+  docker compose up --build -d
 ```
 
-## Tech Stack
-[![My Skills](https://skillicons.dev/icons?i=nodejs,nest,ts,js,jest)](https://skillicons.dev)
+### Without Docker (Linux Configuration)
 
-## Sources
-https://github.com/KILLYOUGUTSXXX/user-crud-nestjs
+#### 1. Installing package
+```bash
+  npm i --legacy-peer-deps
+```
+
+#### 2. Creating Database
+```bash
+  npm run db:create
+```
+
+#### 3. Migrate Schema
+```bash
+  npm run migrate:up
+```
+
+#### 4. Seeding the Datas
+```bash
+  npm run seed
+```
+
+#### 4. Build Project
+```bash
+  npm run build
+```
+
+#### 5. Run the service
+```bash
+  npm run start
+```
